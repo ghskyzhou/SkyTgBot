@@ -1,7 +1,11 @@
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
+import json
 
-TOKEN = '7648115858:AAEajVlC5biSPIIgsyhaLWJ3N7N2OCJHd1s'
+with open('config.json', 'r') as f:
+    config = json.load(f)
+
+TOKEN = config['TOKEN']
 
 app = ApplicationBuilder().token(TOKEN).build()
 
