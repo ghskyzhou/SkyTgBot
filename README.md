@@ -22,7 +22,7 @@ After successfully created a Telegram Bot, you have to create a ```config.json``
 }
 ```
 
-To test whether the Bot has been created correctly and get the CHAT_ID of the messsage room where you want to use later. You can run the code ```getChatId.py``` first, and ```/start``` in Telegram. You will now get your **```CHAT_ID```**, it should be put correctly in the ```config.json```, too.
+To test whether the Bot has been created correctly and get the ```CHAT_ID``` of the messsage room where you want to use later. You can run the code ```getChatId.py``` first, and ```/start``` in Telegram. You will now get your **```CHAT_ID```**, it should be put correctly in the ```config.json```, too.
 
 The last step is to run ```main.py``` and wait for the alarm on every 8:00a.m. (UTC+8) if the day has a CF/At contest. 😋
 
