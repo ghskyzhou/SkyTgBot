@@ -5,7 +5,7 @@
 
 ## Introduction
 
-A simple CF/At contest notification on every 8:00a.m. (UTC+8) if the day has a CF/At contest based on Telegram Bot.
+A simple Telegram bot sending a daily notification at 8:00 a.m. (UTC+8) if there’s a CF/At contest scheduled for the day.
 
 ## How to use?
 
