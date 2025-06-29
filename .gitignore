@@ -1,3 +1,4 @@
 /venv
 run.sh
 config.json
+.gitignore
